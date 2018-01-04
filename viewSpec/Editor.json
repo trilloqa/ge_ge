@@ -1,0 +1,28 @@
+{
+  "name" : "Editor",
+  "type" : "editableTable",
+  "controller" : "Trillo.EditableTableController",
+  "editable" : true,
+  "fieldSpecs" : [
+    {
+      "name" : "C1",
+      "displayName" : "C1",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "C2",
+      "displayName" : "C2",
+      "enumName" : "E1",
+      "editable" : true,
+      "type" : "select"
+    },
+    {
+      "name" : "C3",
+      "displayName" : "C3",
+      "editable" : true,
+      "type" : "checkbox"
+    }
+  ],
+  "allowsNewRow" : true
+}
